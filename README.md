@@ -483,7 +483,7 @@ function handleResults(result) {
 Autocannon is written in JavaScript for the Node.js runtime and it is CPU-bound.
 We have verified that it yields comparable results with `wrk` when benchmarking Node.js
 applications using the `http` module.
-Nevertheless, it uses significant more CPU than other tools that compiles to a binary such as `wrk`.
+Nevertheless, it uses significantly more CPU than other tools that compiles to a binary such as `wrk`.
 Autocannon can saturate the CPU, e.g. the autocannon process reaches 100%: in those cases
 we recommend to use `wrk`.
 
